@@ -1,0 +1,8 @@
+- name: Install & run NGINX 
+  hosts: frontend 
+  tasks:
+  - name: Install NGINX 
+    ansible.builtin.package:
+      name: NGINX 
+      state: present
+      
