@@ -13,5 +13,5 @@
   - name: Start the NGINX Service
     ansible.builtin.service:
       name: nginx
-      stste: started
+      state: started
            
