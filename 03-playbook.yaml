@@ -10,4 +10,8 @@
     ansible.builtin.service:
      name: nginx 
      enabled: yes
-          
+  - name: Start the NGINX Service
+    ansible.builtin.service:
+      name: nginx
+      stste: started
+           
