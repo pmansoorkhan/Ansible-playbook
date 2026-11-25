@@ -14,4 +14,8 @@
       msg: "Trainer is: {{TRAINER}}"
 
 
+# TRAINER inputs will be taken from the sequnece:
+# first priority is task level variables @MANSOOR KHAN PATAN
+# second priority is vars level(top given) @MANSOOR KHAN varailbes to take inputs from them .
+
   
