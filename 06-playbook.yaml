@@ -7,11 +7,11 @@
   - name: print variables
     vars:
      #TRAINER: Mansoor khan patan
-     COURSE: ANSIBLE
+     #COURSE: ANSIBLE
     ansible.builtin.debug:
      msg: "Trainer is: {{TRAINER}}, Course is:  {{COURSE}}"
 
 
 
      ## TRAINER is Mansoor khan , COURSE is DEVSECOPS with AWS
-     ##first priority is course.yaml( var_files) to take inputs, next is task varaialbes  
+     ##first priority is  tasks level variables  and  next priority is course.yaml( var_files) variables to take inputs.  
