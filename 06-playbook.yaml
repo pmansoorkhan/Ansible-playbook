@@ -1,0 +1,11 @@
+- name: Print Variables
+  hosts: local
+  connection: local
+  vars_files:
+  - course.yaml:
+  tasks:
+  - name: print variables
+    vars:
+     Trainer: Mansoor khan patan
+    ansible.builtin.debug:
+     msg: "Trainer is: {{TRAINER}}, Course is:  {{COURSE}}"
