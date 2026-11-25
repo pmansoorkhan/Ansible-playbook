@@ -7,5 +7,6 @@
   - name: print variables
     vars:
      Trainer: Mansoor khan patan
+     COURSE: ANSIBLE
     ansible.builtin.debug:
      msg: "Trainer is: {{TRAINER}}, Course is:  {{COURSE}}"
