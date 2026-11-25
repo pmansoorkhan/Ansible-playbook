@@ -6,7 +6,7 @@
   tasks:
   - name: print variables
     vars:
-     TRAINER: Mansoor khan patan
+     #TRAINER: Mansoor khan patan
      COURSE: ANSIBLE
     ansible.builtin.debug:
      msg: "Trainer is: {{TRAINER}}, Course is:  {{COURSE}}"
