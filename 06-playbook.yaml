@@ -10,3 +10,8 @@
      COURSE: ANSIBLE
     ansible.builtin.debug:
      msg: "Trainer is: {{TRAINER}}, Course is:  {{COURSE}}"
+
+
+
+     ## TRAINER is Mansoor khan , COURSE is DEVSECOPS with AWS
+     ##first priority is course.yaml( var_files) to take inputs, next is task varaialbes  
