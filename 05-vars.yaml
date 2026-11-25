@@ -1,0 +1,17 @@
+- name: TASKS level Variables
+  hosts: local
+  connection: local
+  vars:
+    COURSE: AWS WITH DEVSECOPS
+    DURATION: 2 HOURS
+    MODE: ONLINE 
+    TRAINER: MANSOOR KHAN 
+  tasks:
+  - name: Print TASK level Variables
+    vars:  
+     TRAINER: MANSOOR KHAN PATAN
+    ansible.builtin.debug:
+      msg: "Trainer is: {{TRAINER}}"
+
+
+  
