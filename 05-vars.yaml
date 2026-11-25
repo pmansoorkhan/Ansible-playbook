@@ -9,7 +9,7 @@
   tasks:
   - name: Print TASK level Variables
     vars:  
-     TRAINER: MANSOOR KHAN PATAN
+     #TRAINER: MANSOOR KHAN PATAN
     ansible.builtin.debug:
       msg: "Trainer is: {{TRAINER}}"
 
