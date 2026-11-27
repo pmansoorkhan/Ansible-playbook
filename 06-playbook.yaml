@@ -9,7 +9,7 @@
      #TRAINER: Mansoor khan patan
      #COURSE: ANSIBLE
     ansible.builtin.debug:
-     msg: "Trainer is: {{TRAINER}}, Course is:  {{COURSE}}"
+     msg: "Trainer is: {{TRAINER}}, Course is:  {{COURSE}}, Duration is: {{DURATION}}"
 
 
 
