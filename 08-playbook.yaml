@@ -5,6 +5,6 @@
   - name: print variables
     vars:
       TRAINER: Mansoor khan
-      COURSE: Devops
+      #COURSE: Devops
     ansible.builtin.debug:
      msg: " Learining course is: {{COURSE}}, trainer is: {{TRAINER}}"
