@@ -1,8 +1,8 @@
 - name: print variable prefernces
   hosts: local
   connection: local
-  vars: 
-   NAME: Ansible from PLAY 
+  # vars: 
+  #  NAME: Ansible from PLAY 
   # vars_files:
   # - course.yaml
   # vars_prompt:
@@ -22,4 +22,4 @@
   #2. TASKS varaibles will have the 2nd priority of taking the varaibles.
   #3. variables  from files will be the 3rd priority of executing.
   #4. variables from prompt will be the 4th priority of executing.
-
+  #5. variables from play level will be the 5th priority of executing.
