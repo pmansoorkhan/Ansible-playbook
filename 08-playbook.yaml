@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   tasks:
-  - name: print variables coming from ::
+  - name: print variables coming from --
     vars:
       #TRAINER: Mansoor khan
       #COURSE: Devops
