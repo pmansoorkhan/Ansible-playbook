@@ -18,9 +18,9 @@
   
 
   #priority:
-  #1. variables passed "Arguments"  while executing will be the  first priority to take varaibles.
-  #2. variables  from TASKS  will be the 2nd priority of executing.
-  #3. variables  from FILES will be the 3rd priority of executing.
-  #4. variables from PROMPT will be the 4th priority of executing.
-  #5. variables from PLAY level will be the 5th priority of executing.
-  #6. variables from INVENTORY will be the 6th priority of executing.
+  #1. variables passed "Arguments level"  while executing will be the  first priority to take varaibles.
+  #2. variables  from "TASKS level"  will be the 2nd priority of executing.
+  #3. variables  from "FILES level" will be the 3rd priority of executing.
+  #4. variables from "PROMPT level" will be the 4th priority of executing.
+  #5. variables from "PLAY level" will be the 5th priority of executing.
+  #6. variables from "INVENTORY level" will be the 6th priority of executing.
