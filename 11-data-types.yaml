@@ -22,3 +22,10 @@
           is live: {{IS_LIVE}} 
           details is: {{DETAILS}} 
           topics is: {{TOPICS}} 
+
+
+  #  "msg": "program is: AWS with DEVSECOPS \nduration is: 140 HOURS \nis live: True \ndetails is: {'MONTHS': '6 months', 'TRAINER': 'MANSOOR KHAN'} \ntopics is: ['LINUX', 'SHELL', 'ANSIBLE', 'TERRAFORM'] \n"
+
+  # {}---> map or dictionary
+  # []----> list 
+  # |(pipe) --->  new line
