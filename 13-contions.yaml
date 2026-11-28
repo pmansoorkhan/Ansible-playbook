@@ -4,7 +4,7 @@
   vars: 
     Number of sessions: 15
   tasks: 
-  - name: is Ansible sessions greater than 10 
+  - name: is Ansible sessions greater than 15
     ansible.builtin.debug:
       msg: "yes  Ansible sessions are greater than 10"
     when: Number of sessions > 10
