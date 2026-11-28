@@ -17,8 +17,8 @@
   - name: Print variables
     ansible.builtin.debug:
       msg: |
-        program is: {{PROGRAM}} |
-        duration is: {{DURATION}} |
-        is live: {{IS_LIVE}} | 
-        details is: {{DETAILS}} | 
-        topics is: {{TOPICS}} |
+        program is: {{PROGRAM}} 
+        duration is: {{DURATION}} 
+        is live: {{IS_LIVE}} 
+        details is: {{DETAILS}} 
+        topics is: {{TOPICS}} 
