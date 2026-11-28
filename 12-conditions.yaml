@@ -8,3 +8,6 @@
     ansible.builtin.debug:
       msg : "Yes, it is live only"
     when: IS_LIVE
+
+    # IS_LIVE: true ---> means it will check the when condition and execute the task and prints the msg.
+    # IS_LIVE: false---> means it will skipping the when condition and nothing is printed.
