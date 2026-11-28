@@ -9,5 +9,5 @@
       msg : "Yes, it is live only"
     when: IS_LIVE
 
-    # IS_LIVE: true ---> means it will check the when condition and execute the task and prints the msg.
-    # IS_LIVE: false---> means it will skipping the when condition and nothing is printed.
+    # IS_LIVE: true ---> means  the when condition is true so it will execute the task and prints the msg.
+    # IS_LIVE: false---> means the when condition is false it will skips the tasks and nothing is printed.
