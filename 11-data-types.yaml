@@ -1,4 +1,4 @@
-- name: Demo on data types
+- name: demo on data types
   hosts: local
   coneection: local
   vars:
