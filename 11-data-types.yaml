@@ -1,6 +1,6 @@
-- name: demo on data types
+- name: Demo on data types
   hosts: local
-  coneection: local
+  connection: local
   vars:
     PROGRAM: AWS with DEVSECOPS # string    
     DURATION: 140 HOURS #int/numbers    
